@@ -30,7 +30,7 @@ buttonAjouter.addEventListener("click", function () {
 onClick=supprimer("${titre}-${auteur}") class="fa-solid fa-trash"></i><i  class="fa-solid fa-check" 
 onClick=marquerLu("${titre}-${auteur}")></i></li>
 </li>`);
-
+confirm('Voulez vous ajoutez ce livre');
   const livre = {
     titre: titre,
     auteur: auteur,
